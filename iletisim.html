@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+  </head>
+
+  <body style= "background-color:orange";>
+    <header>ATATÜRK ÜNİVERSİTESİ</header>
+    <img src="https://upload.wikimedia.org/wikipedia/tr/c/cc/Ataturkuni_logo.png" width="150"></img>
+    <nav>
+       <ul>
+        <li><a style="color:red;" href="index.html">Ana Sayfa</a></li>
+        <li><a style="color:red;" href="ogrenci.html">Öğrenci</a></li>
+        <li><a style="color:red;" href="akademik.html">Akademik</a></li>
+        <li><a style="color:red;" href="hakkimizda.html">Hakkımızda</a></li>
+        <li><a style="color:red;" href="iletisim.html">İletişim</a></li>
+      </ul>
+    </nav>
+     <form action="kullanici.html">
+      <h3 style="background-color:green">Kullanıcı Kayıt Formu</h3>
+      <label style="background-color:orange">İsim:</label>
+      <input name="isim" type="text" required/> <br>
+      <label style="background-color:orange">Öğrenci No::</label>
+      <input name="no" type="number"/> <br>
+      <label style="background-color:orange">Şifre:</label>
+      <input name="sifre" type="password" required /> <br>
+      <label style="background-color:MediumSeaGreen">Cinsiyet:</label>
+      <select>
+        <option>Kadın</option>
+        <option>Erkek</option>
+      </select>
+      <br>
+      <br>
+      <label>Hoca Seçimi:</label>
+      <br>
+      <select name="cars" size="5" multiple>
+        <option>Dr.Faruk Baturalp GÜNAY</option>
+        <option>Arş. Gör. Saltuk Buğrahan ÖZTÜRK</option>
+        <option>Arş. Gör. Şeyma ALTAY</option>
+        <option>Prof. Abdülsamet HAŞILOĞLU</option>
+        <option>Prof. Mete YAĞANOĞLU</option>
+        <option>Dr. Köksal ERENTÜRK</option>
+      </select>
+      <br>
+      <br>
+      <label>Görüş ve Önerileriniz</label> <br>
+      <textarea name="gorusler" rows="5" cols="35"></textarea>
+      <br>
+      <input type="submit" value="Kaydet" /> <br>
+    </form>
+  </body>
+</html>
