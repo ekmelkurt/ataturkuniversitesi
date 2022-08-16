@@ -1,1 +1,1 @@
-# atat-rk-niversitesi
+# ataturkuniversitesi
